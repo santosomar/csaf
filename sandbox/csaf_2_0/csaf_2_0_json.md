@@ -16,10 +16,10 @@ licensing terms, please refer to the Intellectual Property Rights
 section of the TC's web page
 (<https://www.oasis-open.org/committees/csaf/ipr.php>).
 
-Organization of CSAF CVRF
+Organization of CSAF 2.0
 -------------------------
 
-The specification is split into seven chapters.
+The specification is split into seven initial chapters.
 
 Terminology
 -----------
@@ -32,74 +32,36 @@ document are to be interpreted as described in \[[RFC2119](#RFC2119)\].
 
 For the purposes of this document, the following applies:
 
-> **Advisory** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
->
-> **Coordinator** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
->
-> **Finder** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
->
-> **Online Services** --- as in ISO/IEC 29147
-> \[[ISO29147](#refISO29147)\]
->
-> **Product** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
->
-> **Remediation** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
->
-> **Service** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
->
-> **Vendor** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
->
-> **Vulnerability** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
->
-> **Date Time Value ---** as defined in section 2.2.1 [Date and
-> Time](#date-and-time-model)
->
-> **Positive Integer ---** integer number \> 0 (xs:positiveInteger) cf.
-> \[[XML-Schema-2](#refXML_Schema_2)\]
->
-> **Cardinality Range ---** minimal and maximal occurrence noted as
-> mathematical closed\
-> interval with the special symbol (∞) for infinity to indicate no\
-> upper limit.
->
-> **Enumeration Set ---** a finite set of domain values (case-sensitive
-> string literals)\
-> implemented via enumerations on (xs:token)\
-> cf. \[[XML-Schema-2](#refXML_Schema_2)\]
+* **Advisory** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
+* **Coordinator** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
+* **Finder** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
+* **Online Services** --- as in ISO/IEC 29147 [[ISO29147](#refISO29147)\]
+* **Product** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
+* **Remediation** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
+* **Service** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
+* **Vendor** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
+* **Vulnerability** --- as in ISO/IEC 29147 \[[ISO29147](#refISO29147)\]
+* **Date Time Value ---** as defined in section 2.2.1 [Date and Time](#date-and-time-model)
+* **Positive Integer ---** integer number \> 0 (xs:positiveInteger) cf. \[[XML-Schema-2](#refXML_Schema_2)\]
+* **Cardinality Range ---** minimal and maximal occurrence noted as mathematical closed interval with the special symbol (∞) for infinity to indicate no upper limit.
+* **Enumeration Set ---** a finite set of domain values (case-sensitive string literals) implemented via enumerations on (xs:token) cf. \[[XML-Schema-2](#refXML_Schema_2)]
 
 ### Abbreviated Terms
 
-> **CCE** --- Common Configuration Enumeration
->
-> **CSAF** --- Common Security Advisory Framework
->
-> **CPE** --- Common Platform Enumeration \[[CPE23-N](#refCPE23_N)\]
->
-> **CSIRT** --- Computer Security Incident Response Team
->
-> **CVE** --- Common Vulnerabilities and Exposures \[[CVE](#refCVE)\]
->
-> **CVRF** --- Common Vulnerability Reporting Framework
->
-> **CVSS** --- Common Vulnerability Scoring System \[[CVSS](#refCVSS3)\]
->
-> **CWE** --- Common Weakness Enumeration \[[CWE](#refCWE)\]
->
-> **ICASI** --- Internet Consortium for Advancement of Security on the
-> Internet, <http://www.icasi.org/>
->
-> **ID** --- Identifier
->
-> **OASIS** --- Organization for the Advancement of Structured
-> Information Standards,\
-> <https://www.oasis-open.org/>
->
-> **PSIRT** --- Product Security Incident Response Team
->
-> **URL** --- Uniform Resource Locator
->
-> **UTC** --- Coordinated Universal Time (Acronym: Universal Time
-> Coordinated) \[[ISO8601](#refISO8601)\]
+* **CCE** --- Common Configuration Enumeration
+* **CSAF** --- Common Security Advisory Framework
+* **CPE** --- Common Platform Enumeration \[[CPE23-N](#refCPE23_N)\]
+* **CSIRT** --- Computer Security Incident Response Team
+* **CVE** --- Common Vulnerabilities and Exposures \[[CVE](#refCVE)\]
+*  **CVRF** --- Common Vulnerability Reporting Framework
+* **CVSS** --- Common Vulnerability Scoring System \[[CVSS](#refCVSS3)\]
+* **CWE** --- Common Weakness Enumeration \[[CWE](#refCWE)\]
+* **ICASI** --- Internet Consortium for Advancement of Security on the Internet, <http://www.icasi.org/>
+* **ID** --- Identifier
+* **OASIS** --- Organization for the Advancement of Structured Information Standards, <https://www.oasis-open.org/>
+* **PSIRT** --- Product Security Incident Response Team
+* **URL** --- Uniform Resource Locator
+* **UTC** --- Coordinated Universal Time (Acronym: Universal Time Coordinated) \[[ISO8601](#refISO8601)\]
 
 Normative References
 --------------------
